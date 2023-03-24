@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:background="#0F181B"
+        >
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_marginBottom="40dp"
+            >
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/spaceship"
+                android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/start_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Start Game"
+            android:theme="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:backgroundTint="#08adff"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textFontWeight="300"
+            />
+
+            <!--
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Settings"
+                android:theme="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                android:backgroundTint="#dedede"
+                android:textSize="25dp"
+                android:textFontWeight="300"
+
+                /> -->
+
+            <Button
+                android:id="@+id/highscores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Highscores"
+                android:theme="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                android:backgroundTint="#dedede"
+                android:textSize="25dp"
+                android:textFontWeight="300"
+
+                />
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Quit"
+                android:theme="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                android:backgroundTint="#dedede"
+                android:textSize="25dp"
+                android:textFontWeight="300"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
