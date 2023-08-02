@@ -2,7 +2,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <uk.ac.reading.sis05kol.GameFramework.GameView
+    <uk.co.freelance.example.GameFramework.GameView
         android:id="@+id/gamearea"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

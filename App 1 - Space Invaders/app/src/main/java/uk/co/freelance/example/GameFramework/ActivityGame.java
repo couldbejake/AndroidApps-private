@@ -1,4 +1,4 @@
-package uk.ac.reading.sis05kol.GameFramework;
+package uk.co.reading.example.GameFramework;
 
 import static android.support.v4.content.ContextCompat.startActivity;
 

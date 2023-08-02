@@ -1,4 +1,4 @@
-package uk.ac.reading.sis05kol.GameFramework;
+package uk.co.freelance.example.GameFramework;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("uk.ac.reading.sis05kol.mooc", appContext.getPackageName());
+        assertEquals("uk.co.freelance.example.mooc", appContext.getPackageName());
     }
 }

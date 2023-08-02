@@ -1,4 +1,4 @@
-package uk.ac.reading.sis05kol.GameFramework;
+package uk.co.reading.example.GameFramework;
 
 import static android.app.PendingIntent.getActivity;
 
@@ -9,25 +9,20 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class ActivitySettings extends Activity {
+public class ActivityHighScores extends Activity {
 
-    /*
-          In the future I plan to add a settings activity here.
-    */
-
+    // Creates the high score activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().getDecorView().setSystemUiVisibility(
-                View.SYSTEM_UI_FLAG_HIDE_NAVIGATION|
-                        View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+                View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+        setContentView(R.layout.activity_highscores);
 
         Button backButton = (Button) findViewById(R.id.back);
         backButton.setOnClickListener(new View.OnClickListener() {
@@ -36,5 +31,5 @@ public class ActivitySettings extends Activity {
                 finish();
             }
         });
-   }
+    }
 }

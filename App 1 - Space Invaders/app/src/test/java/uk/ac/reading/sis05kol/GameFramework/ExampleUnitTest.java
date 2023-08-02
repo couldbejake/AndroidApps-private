@@ -1,4 +1,4 @@
-package uk.ac.reading.sis05kol.GameFramework;
+package uk.co.freelance.example.GameFramework;
 
 import org.junit.Test;
 
